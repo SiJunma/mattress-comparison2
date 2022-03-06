@@ -418,6 +418,10 @@ article.article {
         }
 
         &__logo {
+            a {
+                display: block;
+            }
+            
             img {
                 object-fit: contain;
                 width: 100%;
