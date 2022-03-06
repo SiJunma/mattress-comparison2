@@ -283,6 +283,14 @@
     }
   }
 
+  .review__block {
+    margin-bottom: 50px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+  }
+
   .default-header {
     &__offer {
 
@@ -353,7 +361,6 @@
   .review-end {
     width: 100%;
     max-width: unset;
-    margin-top: 50px;
 
     &__wrapper {
       flex-direction: row;
