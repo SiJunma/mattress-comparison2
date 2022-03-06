@@ -294,6 +294,7 @@ article.article {
 .nav {
     display: flex;
     align-items: center;
+    height: 42px;
 
     &__wrapper {
         display: flex;
@@ -301,7 +302,7 @@ article.article {
         align-items: center;
         border-bottom: 1px solid #CAD8DC;
         padding: 5px 0;
-        min-height: 42px;
+        height: 42px;
     }
 
     &__logo {
@@ -911,7 +912,7 @@ article.article {
     z-index: 9;
     width: 100%;
     position: sticky;
-    top: 43px;
+    top: 41px;
     background-color: #fff;
     border-bottom: 2px solid #E4EDF7;
     display: flex;
